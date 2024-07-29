@@ -1,2 +1,2 @@
 # typst-cv-template
-Template in progress for my CV
+Template migration from Latex to Typst in progress for my CV
