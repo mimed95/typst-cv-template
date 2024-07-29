@@ -1,0 +1,5 @@
+[package]
+name = "my-modern-cv-typst"
+version = "0.0.1"
+entrypoint = "main.typ"
+authors = ["Michael Medvedovski"]
