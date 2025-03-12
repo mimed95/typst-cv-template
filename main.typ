@@ -1,18 +1,22 @@
-#import "@preview/modern-cv:0.5.0": *
+#import "@preview/modern-cv:0.8.0": *
 
 #show: resume.with(
   author: (
       firstname: "Michael", 
       lastname: "Medvedovski",
-      email: "<insert email>", 
-      phone: "<insert phone>", 
+      email: "m.medvedovski@outlook.de",  
+      phone: "+4917649474623",
       github: "mimed95",
-      // positions: (
-      //   "Software Engineer",
-      //   "Software Architect"
-      // )
+//      linkedin: "Example",
+//      address: "111 Example St. Example City, EX 11111",
+      positions: (
+        "Software Engineer",
+        "Software Architect"
+      )
   ),
-  date: datetime.today().display()
+  profile-picture: none,
+  date: datetime.today().display(),
+  paper-size: "us-letter"
 )
 
 = Education
@@ -25,7 +29,7 @@
 )
 
 #resume-item[
-  - #lorem(21)
+  - #lorem(20)
   - #lorem(15)
   - #lorem(25)  
 ]
